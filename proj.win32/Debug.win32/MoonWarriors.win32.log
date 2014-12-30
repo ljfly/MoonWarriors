@@ -1,0 +1,37 @@
+﻿Build started 2014/4/10 9:30:49.
+     1>Project "E:\cocos2d-x-2.2.2\cocos2d-x-2.2.2\MoonWarriors\proj.win32\MoonWarriors.win32.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug.win32\MoonWarriors.win32.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\Program Files\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\cocos2d-x-2.2.2\cocos2d-x-2.2.2\Debug.win32\MoonWarriors.win32.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\cocos2d-x-2.2.2\cocos2d-x-2.2.2\Debug.win32\\" libcocos2d.lib libExtensions.lib opengl32.lib glew32.lib libCocosDenshion.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug.win32\MoonWarriors.win32.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\cocos2d-x-2.2.2\cocos2d-x-2.2.2\Debug.win32\MoonWarriors.win32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\cocos2d-x-2.2.2\cocos2d-x-2.2.2\Debug.win32\MoonWarriors.win32.lib" /MACHINE:X86 Debug.win32\MoonWarriors.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\About.obj
+         Debug.win32\Bullet.obj
+         Debug.win32\Config.obj
+         Debug.win32\Effect.obj
+         Debug.win32\Enemy.obj
+         Debug.win32\GameLayer.obj
+         Debug.win32\GameOver.obj
+         Debug.win32\LevelManager.obj
+         Debug.win32\main.obj
+         Debug.win32\Options.obj
+         Debug.win32\PauseLayer.obj
+         Debug.win32\Ship.obj
+         Debug.win32\StartMenu.obj
+         Debug.win32\UnitSprite.obj
+         MoonWarriors.win32.vcxproj -> E:\cocos2d-x-2.2.2\cocos2d-x-2.2.2\Debug.win32\MoonWarriors.win32.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"E:\cocos2d-x-2.2.2\cocos2d-x-2.2.2\Debug.win32\MoonWarriors.win32.exe.manifest" /manifest Debug.win32\MoonWarriors.win32.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug.win32\MoonWarriors.win32.unsuccessfulbuild".
+         Touching "Debug.win32\MoonWarriors.win32.lastbuildstate".
+     1>Done Building Project "E:\cocos2d-x-2.2.2\cocos2d-x-2.2.2\MoonWarriors\proj.win32\MoonWarriors.win32.vcxproj" (build target(s)).
+
+生成成功。
+
+Time Elapsed 00:00:01.55

@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{06e37328-4223-4bb7-aa41-15843dd5ab27}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{437e0dc7-f27a-4406-bf03-38e44e0f129b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{91132a08-6cc9-4c53-8946-373a07246642}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MoonWarriors.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\arial-14.fnt">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\arial-14.GlyphProject">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\arial-14.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\b01.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\bg01.jpg">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\bullet.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\bullet.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\cocos2d-html5.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Default.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Enemy.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Enemy.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\explode1.jpg">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\explode2.jpg">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\explode3.jpg">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\explosion.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\explosion.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\flare.jpg">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gameOver.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\hit.jpg">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Icon.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Icon%402x.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Icon-72.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Icon-Small.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Icon-Small%402x.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Icon-Small-50.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Info.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\iTunesArtwork">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\level01.tmx">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\loading.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\logo.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\menu.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\menuTitle.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\pause.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\play.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\ship01.png">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MoonWarriors.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="About.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="StartMenu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="About.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelManager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Options.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="StartMenu.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitSprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
